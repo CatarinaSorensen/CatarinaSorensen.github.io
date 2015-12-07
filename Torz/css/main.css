@@ -1,0 +1,14 @@
+body{
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+.picture{
+  max-height: 400px;
+  margin-top: 100px;
+}
+
+.turtzdag{
+  color: rgb(255, 255, 255);
+  margin-top: 100px;
+}
