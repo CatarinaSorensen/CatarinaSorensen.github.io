@@ -9,25 +9,37 @@
 
 <body>
 
-<div id = "head" class="ereuntz" style="display:block">Ere Untzdag?</div>
-<div id = "sub" class="ereuntz" style="display:block">Neeeeeeej</div>
+<br>
+<div id = "head"><b>Ere Untzdag?</b></div>
+<br>
+<div id = "sub"><font color="lightblue">Neeeeeeej</font></div>
 
 
-<div id="ons" style="display:none">
-<audio id="regimen" src="music/cutreg.mp3" type="audio/mpeg" loop></audio>FUCK YEAH</div>
+<br>
+<div id="ons">
+<audio id="regimen" src="cutreg.mp3" type="audio/mpeg" loop></audio><b>FUCK YEAH</b></div>
+<br>
+<div id = "tek">LEKAR MED PINGISBOLLAR</div>
+<div id = "link"><a href="www.teknikfokus.se"><font color="lightblue">Smygreklam</font>
+</a></div>
+
 
 <script type="text/javascript">
 
-      if (new Date().getDay() == 2) {
+      if (new Date().getDay() == 3) {
         document.getElementById('head').style.display = 'none';
         document.getElementById('sub').style.display = 'none';
         document.getElementById('ons').style.display = 'block';
+        document.getElementById('tek').style.display = 'block';
+        document.getElementById('link').style.display = 'block';
         document.getElementById('regimen').play();
 
       }else{
         document.getElementById('head').style.display = 'block';
         document.getElementById('sub').style.display = 'block';
         document.getElementById('ons').style.display = 'none';
+        document.getElementById('tek').style.display = 'none';
+        document.getElementById('link').style.display = 'none';
       }
 
 </script>
