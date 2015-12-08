@@ -10,16 +10,23 @@
 <body>
 
 <div id = "head" class="ereuntz" style="display:block">Ere Untzdag?</div>
+<div id = "sub" class="ereuntz" style="display:block">Neeeeeeej</div>
 
-<div id="ons" style="display:none">FUCK YEAH</div>
+
+<div id="ons" style="display:none">
+<audio id="regimen" src="music/cutreg.mp3" type="audio/mpeg" loop></audio>FUCK YEAH</div>
 
 <script type="text/javascript">
 
-      if (new Date().getDay() == 3) {
+      if (new Date().getDay() == 2) {
         document.getElementById('head').style.display = 'none';
+        document.getElementById('sub').style.display = 'none';
         document.getElementById('ons').style.display = 'block';
+        document.getElementById('regimen').play();
+
       }else{
         document.getElementById('head').style.display = 'block';
+        document.getElementById('sub').style.display = 'block';
         document.getElementById('ons').style.display = 'none';
       }
 
