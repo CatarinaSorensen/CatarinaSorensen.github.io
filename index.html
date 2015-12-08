@@ -1,1 +1,29 @@
-EREUNTZDAG?
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Untzdag</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+
+<div id = "head" class="ereuntz" style="display:block">Ere Untzdag?</div>
+
+<div id="ons" style="display:none">FUCK YEAH</div>
+
+<script type="text/javascript">
+
+      if (new Date().getDay() == 3) {
+        document.getElementById('head').style.display = 'none';
+        document.getElementById('ons').style.display = 'block';
+      }else{
+        document.getElementById('head').style.display = 'block';
+        document.getElementById('ons').style.display = 'none';
+      }
+
+</script>
+</body>
+
+</html>
