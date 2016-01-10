@@ -1,42 +1,58 @@
 <!DOCTYPE html>
 <html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <title>Untzdag</title>
   <link rel="stylesheet" href="style.css">
 </head>
+<header>
+  <h1>Ereuntzdag?</h1>
+</header>
 
 <body>
 
-<div id = "head"><b>GOD JUL, tagga nyår!</b></div>
-<br>
-<div id = "sub"><font color="white">Neeeeeeej</font></div>
-<div id="ons">
-<audio id="regimen" src="cutchrismas.mp3" type="audio/mpeg" loop></audio><h1>GOD JUL, tagga nyår!</h1></div>
-<div id = "tek"><h3>#nyårskröket16</h3></div>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ua9ofcOlEVQ?autoplay=1" frameborder="0" loop></iframe>
+  <div id="ons">
+    <audio id="regimen" src="cutchrismas.mp3" type="audio/mpeg" loop></audio>
+      <center><h1>OHH YEAH</h1></center>
+    </div>
 
-<script type="text/javascript">
+  <div class="omslag">
+    <img src="bild5.jpg" height="300px" width="600px">
+  </div>
 
-  //    if (new Date().getDay() == 3) {
-        if (3 == 3) {
-        document.getElementById('head').style.display = 'none';
-        document.getElementById('sub').style.display = 'none';
-        document.getElementById('ons').style.display = 'block';
-        document.getElementById('tek').style.display = 'block';
-        document.getElementById('link').style.display = 'block';
-        document.getElementById('regimen').play();
+  <div class="info">
+    <h2>Poséa</h2>
+    <img src="bild1.jpg" height="220px" width="300px">
+  </div>
+  <div class="info">
+    <h2>Fira</h2>
+    <img src="bild2.jpg" height="220px" width="300px">
+  </div>
+  <div class="info">
+    <h2>Sittningar!</h2>
+    <img src="bild3.jpg" height="220px" width="300px">
+  </div>
 
-      }else{
-        document.getElementById('head').style.display = 'block';
-        document.getElementById('sub').style.display = 'block';
-        document.getElementById('ons').style.display = 'none';
-        document.getElementById('tek').style.display = 'none';
-        document.getElementById('link').style.display = 'none';
-      }
+  <div class="info">
+    <h2>Untzare i fokus</h2>
+    <img src="bild4.jpg" height="220px" width="300px">
+  </div>
 
-</script>
+
+  <script type="text/javascript">
+
+     if (new Date().getDay() == 3) {
+       document.getElementById('regimen').play();
+       document.getElementById('ons').style.display = 'block';
+    }else {
+      document.getElementById('ons').style.display = 'none';
+
+    }
+
+  </script>
+
 </body>
 
 </html>

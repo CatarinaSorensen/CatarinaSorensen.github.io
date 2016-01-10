@@ -1,6 +1,45 @@
+header {
+  color: black;
+  font-size: 300%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom:25px;
+}
+
 body {
-  background-color: red;
-  text-align:center;
-  font-size: 4em;
+  background-color: lightblue;
+  color: white;
   font-family: sans-serif;
+}
+
+.omslag {
+  text-align: center;
+  padding-bottom:25px;
+}
+
+.info {
+    float: left;
+    margin: 5px;
+    padding: 15px;
+    padding-bottom: 150px;
+    width: 300px;
+    height: 300px;
+}
+
+.info h2 {
+  color: black;
+}
+
+@media (max-width: 600px) {
+    .omslag {
+        display: none;
+    }
+
+    header{
+      font-size: 100%;
+    }
+
+    .info {
+      padding: 15px;
+    }
 }
