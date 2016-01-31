@@ -26,7 +26,7 @@ body {
 }
 
 .info h2 {
-  color: black;
+  color: pink;
 }
 
 @media (max-width: 600px) {
