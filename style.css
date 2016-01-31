@@ -1,12 +1,12 @@
 header {
-  color: black;
+  color: pink;
   font-size: 300%;
   text-align: center;
   padding-top: 50px;
 }
 
 body {
-  background-color: pink;
+  background-color: black;
   color: white;
   font-family: sans-serif;
 }
