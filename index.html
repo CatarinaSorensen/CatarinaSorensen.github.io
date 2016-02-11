@@ -19,43 +19,68 @@
       <br>
     </div>
 
-    <center><h1>Veckans untzare </h1></center>
-
-
   <div class="omslag">
-    <img src="3.jpg" height="500px" width="300px">
+    <img src="jodel.png" height="400px" width="400px">
+  </div>
+
+  <center>
+    Gissa antalet upvotes jodeln slutade på:<br>
+    <input type="text" name="upvotes" value="" id="inp"/>
+    <input type="submit" value="Gissa" onclick="proceed();"/>
+  </center>
+
+  <div id = "ans2" class="answer" style="display:none">
+    <h1>10/10</h1>
+  </div>
+
+  <div id = "ans" class="answer" style="display:none">
+    <h1>Fel av dig</h1>
   </div>
 
     <div class="info">
-      <h2>Staben 16</h2>
-      <img src="5.jpg" height="220px" width="300px">
-      <p>VictorT representerar hela staben 16.</p>
+      <h2>Selfie</h2>
+      <img src="1.png" height="200px" width="200px">
+      <p>Valborg 2015.</p>
     </div>
 
   <div class="info">
     <h2>Untzdagar</h2>
-    <img src="b.jpg" height="220px" width="300px">
-    <p>Bild från untzdagars begynnelse.</p>
+    <img src="3.png" height="200px" width="200px">
+    <p>Killen levererar.</p>
   </div>
 
 
   <div class="info">
     <h2>Veckans untzare</h2>
-    <img src="4.jpg" height="220px" width="300px">
-    <p>PZFÅGEL</p>
+    <img src="2.png" height="200px" width="200px">
+    <p>Robin "Joa" TIDMAN!</p>
   </div>
 
   <script type="text/javascript">
 
   document.getElementById('regimen').play();
 
-
-     if (new Date().getDay() == 5) {
+    if (new Date().getDay() == 3) {
        document.getElementById('ons').style.display = 'block';
     }else {
       document.getElementById('ons').style.display = 'none';
-
     }
+
+    function proceed(){
+
+
+      if (document.getElementById('inp').value == 477){
+        document.getElementById('ans').style.display = 'none';
+        document.getElementById('ans2').style.display = 'block';
+
+      }else {
+        document.getElementById('ans2').style.display = 'none';
+        document.getElementById('ans').style.display = 'block';
+
+      }
+    }
+
+
 
   </script>
 

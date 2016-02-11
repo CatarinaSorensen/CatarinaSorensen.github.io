@@ -11,6 +11,15 @@ body {
   font-family: sans-serif;
 }
 
+form {
+  text-align: center;
+}
+
+.answer{
+  text-align: center;
+  color: red;
+}
+
 .omslag {
   text-align: center;
   padding-bottom:25px;
