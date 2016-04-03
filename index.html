@@ -14,47 +14,12 @@
 <body>
 
   <div id="ons">
-    <audio id="regimen" src="j.mp3" type="audio/mpeg" loop></audio>
+    <audio id="regimen" src="catarina.mp3" type="audio/mpeg" loop></audio>
       <center><h1>DDDE VET DU!</h1></center>
       <br>
     </div>
 
-  <div class="omslag">
-    <img src="jodel.png" height="400px" width="400px">
-  </div>
-
-  <center>
-    Gissa antalet upvotes jodeln slutade på:<br>
-    <input type="text" name="upvotes" value="" id="inp"/>
-    <input type="submit" value="Gissa" onclick="proceed();"/>
-  </center>
-
-  <div id = "ans2" class="answer" style="display:none">
-    <h1>10/10</h1>
-  </div>
-
-  <div id = "ans" class="answer" style="display:none">
-    <h1>Fel av dig</h1>
-  </div>
-
-    <div class="info">
-      <h2>Selfie</h2>
-      <img src="1.png" height="200px" width="200px">
-      <p>Valborg 2015.</p>
-    </div>
-
-  <div class="info">
-    <h2>Untzdagar</h2>
-    <img src="3.png" height="200px" width="200px">
-    <p>Killen levererar.</p>
-  </div>
-
-
-  <div class="info">
-    <h2>Veckans untzare</h2>
-    <img src="2.png" height="200px" width="200px">
-    <p>Robin "Joa" TIDMAN!</p>
-  </div>
+<center><iframe width="420" height="315" src="https://www.youtube.com/embed/yQIyWHLktH0" frameborder="0" allowfullscreen></iframe></center>
 
   <script type="text/javascript">
 
@@ -65,23 +30,6 @@
     }else {
       document.getElementById('ons').style.display = 'none';
     }
-
-    function proceed(){
-
-
-      if (document.getElementById('inp').value == 477){
-        document.getElementById('ans').style.display = 'none';
-        document.getElementById('ans2').style.display = 'block';
-
-      }else {
-        document.getElementById('ans2').style.display = 'none';
-        document.getElementById('ans').style.display = 'block';
-
-      }
-    }
-
-
-
   </script>
 
 </body>
