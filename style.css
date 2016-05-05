@@ -11,6 +11,11 @@ body {
   font-family: sans-serif;
 }
 
+p {
+  color: orange;
+
+}
+
 form {
   text-align: center;
 }
