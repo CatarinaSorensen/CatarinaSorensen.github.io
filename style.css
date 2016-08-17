@@ -1,5 +1,5 @@
 header {
-  color: pink;
+  color: purple;
   font-size: 300%;
   text-align: center;
   padding-top: 50px;
@@ -7,7 +7,7 @@ header {
 
 body {
   background-color: black;
-  color: white;
+  color: pink;
   font-family: sans-serif;
 }
 
