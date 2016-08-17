@@ -4,41 +4,77 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Ereuntzdag</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Catarina</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/bjqs.css">
+  <link rel="stylesheet" href="styles/image.css">
+
+  <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script src="js/bjqs-1.3.min.js"></script>
+
+  <header><h1>My portfolio :)</h1></header>
+
 </head>
 <body>
-
-  <div id="ons">
-    <audio id="regimen" src="doublelevels.mp3" type="audio/mpeg" loop></audio>
-      <header><h1>Ereuntzdag?</h1></header>
-      <center><h1>DDDE VET DU!</h1></center>
+  <div id="blogg">
       <br>
+      <h2>Php application</h2>
+      <p>2015</p>
+      <img src="img/home.png" title="Automatically generated caption">
+      <p>I created a blog in a web programing course with Html5, css, php, Javascript and a PostgreSql database. </p>
     </div>
-    <div id="nej">
-      <audio id="regimen" src="doublelevels.mp3" type="audio/mpeg" loop></audio>
-        <header><h1>#tandemHYPE</h1></header>
-        <header><p>Den Fetaste bussen</p>
-        <p>D + F == true </p></header>
+    <div id="video">
         <br>
+        <h2>Prototyping with Pixelmator</h2>
+        <p>2014</p>
+        <img src="img/home.png" title="Automatically generated caption">
+        <p> My master theisis was to create a menu system protoptype for a video conferencing system. All HI-FI prototypes were created by me and designed in Pixelmator. We also implemented remote stearing of network camera by using TV, TVs remote control, network camera and a HDMI cable that connected the camera with the TV. To control the camera we used APIs and protocol for passing the information with HDMI. The application handeling the stearing was located at the network camera and written in C.</p>
       </div>
+  <div id="selfie">
+      <br>
+      <h2>Android application</h2>
+      <p>2014</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/8ZmMSqBrdWE" frameborder="0" allowfullscreen></iframe>
+      <p>In the course Advanced Interaction Design at Lund University one of the assignments were to create a app using one or many of the smartphones features like GPS, accelerometer or gyro. We decided to create an Android application where you can take a picture with the front camera by shaking your phone. Before taking the picture you can change filter by tilting the phone left or right.  </p>
+    </div>
+    <div id="arkad">
+        <br>
+        <h2>Android application</h2>
+        <p>2013</p>
+        <div id="container">
+          <div id="banner-slide">
+            <ul class="bjqs">
+              <li><a href=""><img src="img/home.png" title="Automatically generated caption"></a></li>
+                      <li><img src="img/info.png" title="Automatically generated caption"></li>
+                      <li><img src="img/search.png" title="Automatically generated caption"></li>
+                      <li><img src="img/filter.png" title="Automatically generated caption"></li>
+            </ul>
+          </div>
 
-<center><iframe width="420" height="315" src="https://www.youtube.com/embed/kqXLMox6V8U" frameborder="0" allowfullscreen></iframe></center>
+    <script class="secret-source">
+      jQuery(document).ready(function($) {
 
-  <script type="text/javascript">
+        $('#banner-slide').bjqs({
+          animtype      : 'slide',
+          height        : 550,
+          width         : 410,
+          responsive    : true,
+          randomstart   : true
+        });
 
-  document.getElementById('regimen').play();
+      });
+    </script>
 
-    if (new Date().getDay() == 3) {
-       document.getElementById('ons').style.display = 'block';
-       document.getElementById('nej').style.display = 'none';
-
-    }else {
-      document.getElementById('nej').style.display = 'block';
-      document.getElementById('ons').style.display = 'none';
-    }
-  </script>
-
+  </div>
+      <p> Arkad is a company fair at Lund University faculty of engeneering with approximatly 120 companys attending each year. Every year a new website and smartphone applications are created by students. I were responsible for the Android application 2013 and developed the application by myself. By fetching data with a Json api and on the smartphone locally store the users preferences I created the application which was publisched in Google Play during 2013 and had about 500 downloads. I also created all graphics used in the app except for the maps and of course the companies icons. </p>
+  </div>
+  <div id="sudoku">
+      <br>
+      <h2>Java application</h2>
+      <p>2011</p>
+      <img src="img/home.png" title="Automatically generated caption">
+      <p>In the second Java programming course at Lund University one of the assignments were to create a sudoku using recursion and Swing. </p>
+    </div>
 </body>
 
 </html>

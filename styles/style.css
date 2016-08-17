@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100,400);
+
 header {
   color: pink;
   font-size: 300%;
@@ -6,23 +8,13 @@ header {
 }
 
 body {
-  background-color: black;
-  color: white;
-  font-family: sans-serif;
-}
-
-p {
-  color: orange;
-
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
 }
 
 form {
   text-align: center;
-}
-
-.answer{
-  text-align: center;
-  color: red;
 }
 
 .omslag {
