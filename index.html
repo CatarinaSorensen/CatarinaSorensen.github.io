@@ -1,36 +1,51 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <title>Ereuntzdag</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Shadows+Into+Light" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
   <div id="ons">
-    <audio id="regimen" src="doublelevels.mp3" type="audio/mpeg" loop></audio>
-      <header><h1>Ereuntzdag?</h1></header>
-      <center><h1>DDDE VET DU!</h1></center>
+    <audio id="untzuntz" src="cattauntzuntz.mp3" type="audio/mpeg" loop></audio>
+    <br><br>
+     <center><h1> Ereuntzdag? FUCK YEAH!! </h1></center>
+      <center><h2>10/10 BANANER!! </h2>
+      <p>Swisha till 0708-478441 <3 </p></center>
+
       <br>
+            <center><li><img src="cattauntz.jpg" </li></center>
+            <center><a href="http://finest.se/annauntz/2016/08/28/tack-lund/">Klicka här</a></center>
+
+        <center><p>Staben 16 borde sitta ner i båten. #hype #gånerpåknä </p></center>
+        <center><p>14 staben bästa staben, 17 staben nästa staben. #pzfågel</p></center>
+
+
     </div>
     <div id="nej">
-      <audio id="regimen" src="doublelevels.mp3" type="audio/mpeg" loop></audio>
-	<center><h2> HELL NOO :( </h2></center>
-        <br>
+      <audio id="reversed" src="doublelevels.mp3" type="audio/mpeg" loop></audio>
+      <br><br>
+	     <center><h1> Ereuntzdag? HELL NOOO </h1></center>
+        <center><h2>Inte 10/10 BANANER </h2>
+        <p>Swisha till 0708-478441 </p></center>
+
       </div>
-    <div><center><h2>#hype #staben17 #nollning #datastammen</h2></center></div>
 
   <script type="text/javascript">
 
-  document.getElementById('regimen').play();
 
     if (new Date().getDay() == 3) {
+      document.getElementById('untzuntz').play();
        document.getElementById('ons').style.display = 'block';
        document.getElementById('nej').style.display = 'none';
 
     }else {
+      document.getElementById('reversed').play();
       document.getElementById('nej').style.display = 'block';
       document.getElementById('ons').style.display = 'none';
     }

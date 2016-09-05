@@ -1,23 +1,30 @@
-header {
-  color: purple;
-  font-size: 300%;
-  text-align: center;
-  padding-top: 50px;
-}
-
 body {
   background-color: black;
   color: pink;
-  font-family: sans-serif;
-}
-
-p {
-  color: orange;
-
+  font-family: 'Shadows Into Light', cursive;
 }
 
 form {
   text-align: center;
+}
+
+h1 {
+  font-size: 800%;
+}
+
+h2 {
+  font-size: 200%;
+  color: yellow;
+}
+
+p {
+  font-size: 200%;
+  color: purple;
+
+}
+
+a {
+  color: pink;
 }
 
 .answer{
