@@ -5,44 +5,83 @@
 <head>
   <meta charset="UTF-8">
   <title>Ereuntzdag</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Shadows+Into+Light" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Happy+Monkey" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
 
-  <div id="ons">
-    <audio id="untzuntz" src="cattauntzuntz.mp3" type="audio/mpeg" loop></audio>
-    <br><br>
-     <center><h1> Ereuntzdag? FUCK YEAH!! </h1></center>
-      <center><h2>10/10 BANANER!! </h2>
-      <p>Swisha till 0708-478441 <3 </p></center>
 
-      <br>
-            <center><img src="cattauntz.jpg" </img></center>
-            <center><a href="http://finest.se/annauntz/2016/08/28/tack-lund/">Klicka här</a></center>
+    <div id="gasque">
+      <audio id="untzuntz" src="cattauntzuntz.mp3" type="audio/mpeg" loop></audio>
+      <br><br>
+        <center><h1>TAGGA GASQUE</h1></center>
+        <center><h2>BANANERNA FTW <3 </h2>
+        <br>
+        <a href="https://www.youtube.com/watch?v=yQIyWHLktH0">Klicka då</>
+        <br><br>
+        <center><img src="banan.png" </img></center>
+      </div>
 
-        <center><p>Staben 16 borde sitta ner i båten. #hype #gånerpåknä </p></center>
-        <center><p>14 staben bästa staben, 17 staben nästa staben. #pzfågel</p></center>
+      <div id="martin">
+        <audio id="untzuntz" src="cattauntzuntz.mp3" type="audio/mpeg" loop></audio>
+        <br><br>
+          <center><h1>EFTERFEST HOS MARTIN</h1></center>
 
+          <br><br>
+          <center><img src="martin.png" </img></center>
+      </div>
 
-    </div>
     <div id="nej">
       <audio id="reversed" src="doublelevels.mp3" type="audio/mpeg" loop></audio>
       <br><br>
 	     <center><h1> Ereuntzdag? HELL NOOO </h1></center>
-        <center><h2>Inte 10/10 BANANER </h2>
         <p>Swisha till 0708-478441 </p></center>
-
       </div>
+
+      <div id="ons">
+        <audio id="untzuntz" src="cattauntzuntz.mp3" type="audio/mpeg" loop></audio>
+        <br><br>
+          <center><h1>TAGGA SENSATION RED PH</h1></center>
+          <center><a href="http://www.dödskrök.se">Klicka då</><center>
+          <br>
+                <center><img src="combi.png" </img></center>
+        </div>
 
   <script type="text/javascript">
 
-
-    if (new Date().getDay() == 3) {
-      document.getElementById('untzuntz').play();
+    var date = new Date().getDay();
+    if (date == 3) {
+       document.getElementById('untzuntz').play();
        document.getElementById('ons').style.display = 'block';
        document.getElementById('nej').style.display = 'none';
+       document.getElementById('martin').style.display = 'none';
+       document.getElementById('gasque').style.display = 'none';
+
+
+    }else if(date == 4){
+      document.getElementById('untzuntz').play();
+      document.getElementById('ons').style.display = 'none';
+      document.getElementById('nej').style.display = 'none';
+      document.getElementById('martin').style.display = 'block';
+      document.getElementById('gasque').style.display = 'none';
+
+
+    }else if(date == 5){
+      document.getElementById('untzuntz').play();
+      document.getElementById('ons').style.display = 'none';
+      document.getElementById('nej').style.display = 'none';
+      document.getElementById('martin').style.display = 'none';
+      document.getElementById('gasque').style.display = 'block';
+
+
+    }else if(date == 6){
+      document.getElementById('reversed').play();
+      document.getElementById('ons').style.display = 'none';
+      document.getElementById('nej').style.display = 'none';
+      document.getElementById('martin').style.display = 'block';
+      document.getElementById('gasque').style.display = 'none';
+
 
     }else {
       document.getElementById('reversed').play();

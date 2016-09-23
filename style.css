@@ -1,7 +1,7 @@
 body {
   background-color: black;
-  color: pink;
-  font-family: 'Shadows Into Light', cursive;
+  color: yellow;
+  font-family: font-family: 'Happy Monkey', cursive;
 }
 
 form {
@@ -24,7 +24,7 @@ p {
 }
 
 a {
-  color: pink;
+  color: yellow;
 }
 
 .answer{
