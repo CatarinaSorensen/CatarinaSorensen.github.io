@@ -1,66 +1,27 @@
-body {
+#image {
+  padding: 100px;
   background-color: black;
-  color: #4099ff;
-  font-family: font-family: 'Happy Monkey', cursive;
 }
 
-form {
-  text-align: center;
-}
-
-h1 {
-  font-size: 800%;
-}
-
-h2 {
-  font-size: 200%;
-  color: #985037;
-}
-
-p {
-  font-size: 200%;
-  color: purple;
+#phaddrar {
+  padding-bottom: 100px;
+  font-family: 'Poppins', sans-serif;
 
 }
 
 a {
-  color: yellow;
+  color: #69ffb4;
+  font-family: 'Poppins', sans-serif;
+  font-size: 150%;
+
 }
 
-.answer{
-  text-align: center;
-  color: red;
+h3{
+  padding-top: 50px;
+  color: #ff69b4;
+
 }
 
-.omslag {
-  text-align: center;
-  padding-bottom:25px;
-}
 
-.info {
-    float: left;
-    margin: 5px;
-    padding: 30px;
-    padding-bottom: 150px;
-    width: 300px;
-    height: 300px;
-}
 
-.info h2 {
-  color: pink;
-}
-
-@media (max-width: 600px) {
-
-    .omslag {
-        display: none;
-    }
-
-    header{
-      font-size: 100%;
-    }
-
-    .info {
-      padding: 15px;
-    }
 }
